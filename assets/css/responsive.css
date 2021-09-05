@@ -1,0 +1,62 @@
+/* PC */
+@media(min-width: 1024px){
+    
+}
+/* Tablet */
+@media(min-width: 740px) and (max-width: 1023px){
+    
+}
+/* pc & tablet */
+@media(min-width: 740px){
+    #header .search-menu-btn{
+        display: none;
+    }
+}
+/* Moblie */
+@media(max-width: 740px){
+    /* css section */
+    .s-col-full{
+        width: 100%;
+    }
+    .s-mt-16{
+        margin-top: 16px;
+    }
+    .s-mt-8{
+        margin-top: 8px;
+    }
+    .s-width-full{
+        display: block;
+        width: 100%;
+    }
+    /*css private*/
+    #nav {
+        display: block;
+    }
+    #nav > li {
+        display: block;
+    }
+    #header {
+        overflow: hidden;
+    }
+    #header .search-button{
+        display: none;
+    }
+    #header #nav > li:first-child{
+        display: inline-block;
+    }
+    #nav .subnav{
+        position: relative;
+    }
+    #nav .subnav a {
+        
+        padding: 1px 35px;
+        
+    }
+    #nav .subnav {
+        background-color: rgb(90, 89, 89);
+    }
+    .footer-icon a i {
+        font-size: 28px;
+        margin-right: 8px;
+    }
+}
